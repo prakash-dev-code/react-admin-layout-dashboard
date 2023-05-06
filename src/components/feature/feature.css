@@ -1,0 +1,73 @@
+.feature{
+    flex: 2;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 10px;
+    /* background-color: #fff; */
+    border-radius: 5px;
+}
+.feature .top{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: gray;
+}
+.feature .top .title{
+    font-size:16px ;
+    font-weight: 500;
+}
+.feature .bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.feature .bottom .featureChart{
+    width: 100px;
+    height: 100px;
+}
+.feature .bottom .title{
+    font-weight: 500;
+    color: gray;
+}
+.feature .bottom .amount{
+    font-size: 30px;
+}
+.feature .bottom .desc{
+    font-weight: 300;
+    font-size: 13px;
+    color: gray;
+    text-align: center;
+}
+.feature .bottom .summary{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  
+
+}
+.feature .bottom .summary .item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.feature .bottom .summary .item .itemTitle{
+    font-style: 14px;
+    color: gray;
+}
+.feature .bottom .summary .item .itemResult{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+    font-size: 14px;
+}
+.feature .bottom .summary .item .positive{
+    color: green;
+}
+.feature .bottom .summary .item  .negative{
+    color: red;
+}

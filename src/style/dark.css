@@ -1,0 +1,69 @@
+.app.dark{
+    background-color: #222;
+    color: rgb(156,156,156);
+}
+.app.dark .chart .chartGrid{
+    stroke: gray;
+}
+.app.dark 
+.home .listContainer .css-1ygcj2i-MuiTableCell-root{
+ border-bottom: 1px solid gray;
+ color: gray;
+}
+.app.dark .css-1ex1afd-MuiTableCell-root{
+    color: gray;
+}
+.app.dark .navbar{
+ color: #999;
+ background-color: #222;
+ border-color: #333;
+
+}
+.app.dark .navbar .search{
+    border-color: gray;
+}
+.app.dark .navbar .search input[type=text]{
+    color: gray;
+}
+.app.dark .sidebar{
+    background: #222;
+}
+.app.dark .sidebar .link:hover{
+    background-color:#69626249;
+}
+.app.dark .sidebar .active{
+    background-color: #69626249;
+}
+.app.dark .orderContainer {
+ 
+    background-color:#222;
+}
+.app.dark .css-1usso8h-MuiDataGrid-root{
+    color:#bbbbbb;
+}
+.app.dark .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+    color: gray;
+}
+.app.dark .ordertable .cellAction .viewButton{
+    color: rgb(167, 167, 167);
+} 
+.app.dark .new .newContainer{
+    background-color: #222;
+}
+.app.dark .new .newContainer .bottom .right form .formInput input{
+    background-color:transparent;
+    color: #ffffff;
+   
+}
+.app.dark .single .singleContainer .top{
+    background-color: #222;
+}
+.app.dark .single .singleContainer{
+    background-color: #222;
+}
+.app.dark .css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    background-color: #222;
+}
+.app.dark .css-1ygcj2i-MuiTableCell-root {
+    color: gray;
+}

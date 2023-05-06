@@ -1,0 +1,81 @@
+.ordertable{
+    height:90vh;
+    padding:20px;
+  
+
+}
+.ordertable .ordertableTitle{
+    width: 100%;
+    font-size: 22px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ordertable .ordertableTitle .link{
+    text-decoration: none;
+    font-size: 16px;
+    color: green;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.ordertable .ordertableTitle .link:active{
+    opacity: 0.9;
+}
+.ordertable .ordertableTitle .link:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+.ordertable .cellWithImg{
+    display: flex;
+    align-items: center;
+}
+
+.ordertable .cellWithImg .cellImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+
+}
+.ordertable  .cellWithStatus{
+    padding: 5px;
+    border-radius: 5px;
+}
+.ordertable  .cellWithStatus.active{
+    background-color: rgba(0,128,0,0.05);
+    color: green;
+}
+.ordertable  .cellWithStatus.pending{
+    background-color: rgba(211, 211, 211, 0.05);
+    color: goldenrod;
+
+}
+.ordertable  .cellWithStatus.passive{
+    background-color: rgb(240, 240, 240);
+    color:crimson;
+
+}
+.ordertable .cellAction{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.ordertable .cellAction .viewButton{
+    padding: 4px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: darkblue;
+    border: 1px solid rgba(59, 59, 172, 0.712);
+}
+.ordertable .cellAction .deleteButton{
+    padding: 4px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: crimson;
+    border: 1px solid rgba(220, 20, 60, 0.555);
+}
